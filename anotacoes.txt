@@ -1,0 +1,11 @@
+ctrl + shift + p = abre paleta de comandos vscode
+
+live server - menu inferior - go live
+
+ctrl + shift + p = >simple browser = cola o link da pagina do "go live"
+
+alt + shift + seta pra cima ou pra baixo = cria mais cursor
+
+seleciona texto e segura alt: vai mover ele pra cima ou pra baixo
+
+segura shift e setinha = vai selecionando texto
