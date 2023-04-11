@@ -3,7 +3,7 @@ header, footer {
     color: white;
     background-color: black;
 }
-li {
+nav li {
     display: inline;
     border: solid 4px;
     padding: 0.5em;
@@ -11,4 +11,7 @@ li {
 header a {
     color: white;
     text-decoration: none;
+}
+main{
+    min-height: 264px;
 }

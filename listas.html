@@ -5,6 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogos Jogados</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        li.serie {
+            color: green;
+        }
+        li.filme {
+            color: blue;
+        }
+        li.jogo , span.jogo {
+            color: red;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,25 +32,28 @@
             </nav>
     </header>
     <main>
+        <nav>
         <h3>Jogos</h3>
-        <ol style="color: red;">
-            <li>Valorant</li>
-            <li>Diablo 2</li>
-            <li>Don't Starve</li>
-            <li>Hollow Knight</li>
+        <ol>
+            <li class="jogo">Valorant</li>
+            <li class="jogo">Diablo 2</li>
+            <li class="jogo">Don't Starve</li>
+            <li class="jogo">Hollow Knight</li>
         </ol>
+        <p>E o <span class="jogo">Elden Ring</span> foi meu preferido.</p>
         <h3>Filmes</h3>
-        <ul style="color: blue;"> 
-                <li>Grande Hotel Budapeste</li>
-                <li>Interestelar</li>
-                <li>A Origem</li>
+        <ul> 
+                <li class=filme>Grande Hotel Budapeste</li>
+                <li class=filme>Interestelar</li>
+                <li class=filme>A Origem</li>
         </ul>
         <h3>Séries</h3>
-        <ul style="color: green;">
-                <li>Game of Thrones</li>
-                <li>The Last of Us</li>
-                <li>The Flash</li>
+        <ul>
+                <li class="serie">Game of Thrones</li>
+                <li class="serie">The Last of Us</li>
+                <li class="serie">The Flash</li>
         </ul>
+        </nav>
     </main>
     <footer>
         &copy; 2023 &lt;&gt;DCC121
