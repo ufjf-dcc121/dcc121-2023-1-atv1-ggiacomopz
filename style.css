@@ -1,0 +1,14 @@
+header, footer {
+    padding: 2em 1em;
+    color: white;
+    background-color: black;
+}
+li {
+    display: inline;
+    border: solid 4px;
+    padding: 0.5em;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
