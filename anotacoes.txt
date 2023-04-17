@@ -10,4 +10,4 @@ seleciona texto e segura alt: vai mover ele pra cima ou pra baixo
 
 segura shift e setinha = vai selecionando texto
 
-teste
+testess
